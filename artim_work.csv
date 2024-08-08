@@ -1,0 +1,21 @@
+Test #,Build #,Category,Test Case,Expected Result,Actual Result,Repeatable?,Blocker?,Test Owner
+1,2/26/2024,Tutorial,Blue border remain for a second too long after clicking,Blue border should dissapear after im done clicking on what it tells me to,Blue border remained for a second too long after clicking on what it told me to,Yes,No,Artim Trofimenko
+2,2/26/2024,Main Menu,Asked me to do the tutorial agaoin after i already completed it,To not see tutorial anymore after i completed it,Tutorial popped out after already completing it,Yes,No,Artim Trofimenko
+3,2/26/2024,Main Menu,"After clicking friends, add friends, then exiting the add friends tab, I cant click anyhting in the main menu, its all blurred out",Friends menu to close and use main menu again,"Main menu is all blurred out after closing friends menu, cant click anything",Yes,Yes,Artim Trofimenko
+4,2/26/2024,Arena,"After creating my deck and selecting it, i tried going into the arena, and as the game loaded it just kicked me out to the sign in page",For me to play a match,Game closed and brought me to sign it page,Yes,Yes,Artim Trofimenko
+5,2/26/2024,Training mode,"After clicking on training mode in adventure select, the battle launches and never starts, I just sit there waiting forever",To start match agaisnt AI,Nothing happened,Yes,No,Artim Trofimenko
+6,2/26/2024,Edit Profile,"In ""edit profile"", i cant click on player frame, title, or banner, its lighting up, but nothing is happening","To be able to edit my banner, title or frame","registering my click but nothing happens, does not allow me to edit",Yes,No,Artim Trofimenko
+5,3/5/2024,main menu,"Says my name is david, yet when I click on my profile it says my username, but I go back to meu and my name is still david ",For my name to be my username,"Name eventually changed back, but when I log in sometimes it shows me as david",Sometimes,No,Artim Trofimenko
+3,3/5/2024,Edit Profile,"Player frame, title and banner icons don’t do anything",Buttons to work so I can customize my profile,Nothing happens when icons are clicked ,Yes,No,Artim Trofimenko
+4,3/5/2024,Edit profile/main meu,"When clicking the back arrow from edit profile to main menu, it says my name is David on the top right in main menu,it then switches back",For my name to not switch ,Name switches very breifly to David ,Yes,No,Artim Trofimenko
+1,3/5/2024,Adventure select ,Clicking back arrow on top left does not return me to main menu,Return to main menu when back arrow is clicked ,Nothing happens when back arrow is clicked ,Yes,Yes,Artim Trofimenko
+2,3/5/2024,Adventure select ,Clicking play when selecting mission does nothing ,Match to start once I click play ,Nothing happens when play is clicked ,Yes,No,Artim Trofimenko
+3,3/12/2024,Main Menu,"When clicked on setting, clicking X button on top right dosent work",To exit settings,Nothing happened,Yes,No,Artim Trofimenko
+3,3/12/2024,Adventure Select,Clicking PLAY does nothing,To play the level,Nothing happened,Yes,Yes,Artim Trofimenko
+3,3/12/2024,Adventure Select,Clicking Deck Builder does nothing ,To build my deck,Nothing hapopened ,Yes,No,Artim Trofimenko
+3,3/12/2024,Adventure Select,Clicking Deck Builder does nothing,To build my deck,Nothing hapopened,Yes,No,Artim Trofimenko
+4,3/18/2024,Adventure Select,Home icon on top right does nothing,To go back to main menu,Nothing happened,Yes,Yes,Artim Trofimenko
+4,3/18/2024,Adventure Select,Home icon on top right does nothing ,To go back to main menu,Nothing happened,Yes,Yes,Artim Trofimenko
+4,3/18/2024,Enders Game Leaderboard,"After typing a name to search on the bottom left, clicking the ""x"" to clear it, dosent clear it",For the name to clear,Name didnt clear,Yes,No,Artim Trofimenko
+4,3/18/2024,Online friends (main menu),"When typing a name onto the search bar, clicking the ""x"" to clear it, dosent clear it",For the name to clear,Name didnt clear,Yes,No,Artim Trofimenko
+4,3/18/2024,Adventure Select,The bookmark icon on the top right does nothing,To see my bookmarks,Nothing happened,Yes,No,Artim Trofimenko

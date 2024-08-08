@@ -1,0 +1,4 @@
+Test #,Build #,Category,Test Case,Expected Result,Actual Result,Repeatable?,Blocker?,Test Owner
+1,2024-03-19,Adventure Select Screen,User clicked on the Adventures button from the main menu options.,User is able to click on the icons and buttons present on the screen.,"Nothing happens when user clicks on the Book and House icons in the upper right corner, or on the Deck Builder button in the lower left corner.",Yes,No,Yana Zaynullina
+0,2024-02-27,Main Page,"Click add friend icon, then press back icon to return to main page",Be returned to main page once friend added,"Upon pressing the back icon to return to main page, the game would freeze and would have to log in again.",Yes,Yes,Andrew Gabriel
+3,2024-02-22,Game (Training Mode),AI oppoenent attacks dynamically.,AI opponent will attack in a mathematically efficent way to best win the game.,AI opponent will only attack from left to right (user POV).,Yes,No,Jason Ross
