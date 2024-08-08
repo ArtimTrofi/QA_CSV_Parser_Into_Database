@@ -9,8 +9,8 @@ This project aims to simplify the process of managing and querying QA reports us
 
 ### Features
 
-- **Import Weekly QA Reports**: Import your weekly QA reports into Collection 1 of the database.
-- **Mock DB Dump Import**: Input a mock "DB dump" which contains everyone's reports into Collection 2.
+- **Import Weekly QA Reports**: Import my weekly QA reports into Collection 1 of the database.
+- **Mock DB Dump Import**: Input a mock "DB dump" which contains everyone's (including mine's) reports into Collection 2.
 - **User Work Export**: List all work done by a specific user from both collections (no duplicates).
 - **Repeatable Bugs Export**: Export all repeatable bugs from both collections (no duplicates).
 - **Blocker Bugs Export**: Export all blocker bugs from both collections (no duplicates).
@@ -20,13 +20,15 @@ This project aims to simplify the process of managing and querying QA reports us
 
 ### Current Repository Files
 
-- **.gitignore**: Configured to exclude the `SUBMISSION` folder and other unnecessary files.
-- **script.py**: The main script for parsing and exporting QA data.
-- **artim_work.csv**: All work done by your user.
+- **Proj2code.py**: The main script for parsing and exporting QA data.
+- **artim_work.csv**: All work done by me.
+- **re_bugs**: All bugs in QA reports marked "Yes" as repeatable.
 - **blockers.csv**: All blocker bugs from both collections.
 - **Builds_3_19.csv**: All reports on build 3/19/2024 from both collections.
 - **TestCases.csv**: First, middle, and last test cases from collection 2.
 - **Chaja.csv**: Export of user Kevin Chaja.
+- **EG 4-7 467.xlsx**: My personal QA reports.
+- **EG4-DBDump.xlsx**: Everyone's QA reports (including mine), giant csv file.  
 
 ### Setup
 
