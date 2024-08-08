@@ -31,33 +31,24 @@ This project aims to simplify the process of managing and querying QA reports us
 ### Setup
 
 1. **Install Dependencies**:
-   Ensure you have Python and MongoDB installed. Install the required Python packages using:
-   pip install pandas pymongo
+   Ensure you have Python and MongoDB installed. Install the required Python packages using: pip install pandas pymongo
 
 2. **Configure MongoDB**:
    Ensure MongoDB is running on your local machine or update the connection string in the script to point to your MongoDB instance.
 
 3. **Run the script**:
-   Import weekly QA report:
-    python script.py --import_weekly path/to/weekly_report.xlsx
+   **Import weekly QA report**: python script.py --import_weekly path/to/weekly_report.xlsx
    
-   Import DB dump:
-    python script.py --import_db_dump path/to/db_dump.xlsx
+   **Import DB dump**: python script.py --import_db_dump path/to/db_dump.xlsx
 
-   List all work done by a user:
-    python script.py --list_user_work "User Name" --output_file output.csv
+   **List all work done by a user**: python script.py --list_user_work "User Name" --output_file output.csv
    
-   Export repeatable bugs:
-    python script.py --list_repeatable --output_file repeatable_bugs.csv
+   **Export repeatable bugs**: python script.py --list_repeatable --output_file repeatable_bugs.csv
 
-   Export blocker bugs:
-    python script.py --list_blockers --output_file blocker_bugs.csv
+   **Export blocker bugs**: python script.py --list_blockers --output_file blocker_bugs.csv
 
-   Export reports by build date:
-    python script.py --list_build_reports "03/19/2024" --output_file build_reports.csv
+   **Export reports by build date**: python script.py --list_build_reports "03/19/2024" --output_file build_reports.csv
 
-   Export specific test cases:
-    python script.py --test_cases --output_file test_cases.csv
+   **Export specific test cases**: python script.py --test_cases --output_file test_cases.csv
 
-   Export data for Kevin Chaja:
-    python script.py --kevin_chaja --output_file kevin_chaja.csv
+   **Export data for Kevin Chaja**: python script.py --kevin_chaja --output_file kevin_chaja.csv
