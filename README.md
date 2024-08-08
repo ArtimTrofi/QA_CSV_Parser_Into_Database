@@ -30,13 +30,13 @@ This project aims to simplify the process of managing and querying QA reports us
 
 ### Setup
 
-1. **Install Dependencies**:
+1. **Install Dependencies**:  
    Ensure you have Python and MongoDB installed. Install the required Python packages using: pip install pandas pymongo
 
-2. **Configure MongoDB**:
+2. **Configure MongoDB**:  
    Ensure MongoDB is running on your local machine or update the connection string in the script to point to your MongoDB instance.
 
-3. **Run the script**:
+3. **Run the script**:  
    **Import weekly QA report**: python script.py --import_weekly path/to/weekly_report.xlsx
    
    **Import DB dump**: python script.py --import_db_dump path/to/db_dump.xlsx
